@@ -1,1 +1,35 @@
-/*# sourceMappingURL=main.css.map */
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #D9D9D9;
+}
+main section {
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+body div {
+  background-image: url(../assets/img/patern.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body div section .img-bio {
+  width: 25rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  border-radius: 1.2rem;
+}
+body div section img {
+  width: 25em;
+  height: 25em;
+  transition: all 3.5s;
+}
+body div section img:hover {
+  transform: scale(1.1, 1.1);
+}/*# sourceMappingURL=main.css.map */

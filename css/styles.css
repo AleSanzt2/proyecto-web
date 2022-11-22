@@ -74,9 +74,10 @@ body{
 }
 .textoBio {
     width: 40em;
-    background-color: #A6A6A6;
+    background-color: #D9D9D9;
     height: 35em;
-    padding: 1em;
+    padding-left: 1rem;
+    padding-top: 4.6rem;
     margin: 0;
 }
 .textoLogo {

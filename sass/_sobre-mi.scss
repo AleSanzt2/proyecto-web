@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #D9D9D9;
+    section {
+    padding-left: 5rem;
+    padding-top: 1rem;
+    }
+}
+
+body {
+    div {
+        background-image: url(../assets/img/patern.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        section {
+            .img-bio {
+                width: 25rem;
+                height: fit-content;
+                margin-top: 5rem;
+                margin-bottom: 5rem;
+                margin-left: 5rem;
+                border-radius: 1.2rem;
+            }
+            img {
+                width: 25em;
+                height: 25em;
+                transition: all 3.5s; 
+            }
+            
+            img:hover {
+                transform: scale(1.1, 1.1);
+            }
+        }
+    }
+}

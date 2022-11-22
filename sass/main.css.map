@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sources":["_sobre-mi.scss","main.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,qBAAA;EACA,yBAAA;ACCJ;ADAI;EACA,kBAAA;EACA,iBAAA;ACEJ;;ADGI;EACI,+CAAA;EACA,4BAAA;EACA,2BAAA;EACA,sBAAA;EACA,4BAAA;ACAR;ADEY;EACI,YAAA;EACA,2BAAA;EAAA,wBAAA;EAAA,mBAAA;EACA,gBAAA;EACA,mBAAA;EACA,iBAAA;EACA,qBAAA;ACAhB;ADEY;EACI,WAAA;EACA,YAAA;EACA,oBAAA;ACAhB;ADGY;EACI,0BAAA;ACDhB","file":"main.css"}
