@@ -2,25 +2,7 @@
 
 
 //seccion sobre-mi
-main {
-    .tarjetaCuidados {
-        display: flex;
-        flex-flow: column nowrap;
-        height: 50rem;
-        align-items: center;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        align-content: center;
-    }
-    li {
-        text-align: center;
-        padding-top: 1.5rem;
-        padding-right: 2rem;
-    }
-    h2 {
-        padding-top: 2rem;
-    }
-}
 
 @import 'sobre-mi';
 @import 'medias';
+@import 'cuidados';

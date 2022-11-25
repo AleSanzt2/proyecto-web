@@ -1,22 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
-main .tarjetaCuidados {
-  display: flex;
-  flex-flow: column nowrap;
-  height: 50rem;
-  align-items: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  align-content: center;
-}
-main li {
-  text-align: center;
-  padding-top: 1.5rem;
-  padding-right: 2rem;
-}
-main h2 {
-  padding-top: 2rem;
-}
-
 main {
   display: flex;
   flex-flow: row nowrap;
@@ -36,14 +18,14 @@ main section p {
   padding-top: 2.5rem;
 }
 
-body div {
+body .parallaxBack {
   background-image: url(../assets/img/patern.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
-body div section .img-bio {
+body .parallaxBack section .img-bio {
   width: 25rem;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -53,15 +35,140 @@ body div section .img-bio {
   margin-left: 5rem;
   border-radius: 1.2rem;
 }
-body div section img {
+body .parallaxBack section img {
   width: 25em;
   height: 25em;
   transition: all 3.5s;
 }
-body div section img:hover {
+body .parallaxBack section img:hover {
   transform: scale(1.1, 1.1);
 }
 
+@media (min-width: 380px) and (max-width: 767px) {
+  .cuidados {
+    height: 97rem;
+    width: auto;
+  }
+  .menu-hamburguesa {
+    background-color: black;
+  }
+  header {
+    background-color: black;
+    background-image: none;
+  }
+  main {
+    display: block;
+    background-color: #D9D9D9;
+    height: 160rem;
+  }
+  main section .encabezado {
+    color: black;
+    font-family: "Yeseva One", cursive;
+    text-transform: none;
+    padding-top: 4rem;
+  }
+  main section p {
+    width: 28rem;
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+  }
+  body div .miniGaleria {
+    background-image: url(../assets/img/patern.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  body div section .img-bio {
+    width: 20rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    border-radius: 1.2rem;
+  }
+  body div section img {
+    width: 20rem;
+    height: 20rem;
+    transition: all 3.5s;
+  }
+  body div section img:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .menu {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cuidados {
+    height: 50rem;
+    width: auto;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-hamburguesa {
+    background-color: black;
+  }
+  header {
+    background-color: black;
+    background-image: none;
+  }
+  main {
+    display: flex;
+    background-color: #D9D9D9;
+    height: 40rem;
+  }
+  main section {
+    overflow: hidden;
+  }
+  main section .encabezado {
+    color: black;
+    font-family: "Yeseva One", cursive;
+    text-transform: none;
+    padding-top: 2.8rem;
+    padding-left: 3rem;
+    width: 30rem;
+  }
+  main section p {
+    width: 30.5rem;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+  }
+  body div .miniGaleria {
+    background-image: url(../assets/img/patern.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  body div section #perfil {
+    width: 5rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body div section .img-bio {
+    width: 20rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 7.6rem;
+    border-radius: 1.2rem;
+  }
+  body div section img {
+    width: 20rem;
+    height: 20rem;
+    transition: all 3.5s;
+  }
+  body div section img:hover {
+    transform: scale(1.2, 1.2);
+  }
+}
 @media (min-width: 1024px) {
   main {
     display: flex;

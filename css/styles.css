@@ -184,19 +184,19 @@ iframe {
     padding: 1em;
     margin: 0;
 }
-.tarjetaCuidados {
+/* .tarjetaCuidados {
     width: 20em;
     background-color: #A6A6A6;
     height: 35em;
     padding: 1em;
     margin: 1.5em;
-}
+} */
 main section ul li {
     list-style-type: none;
 }
-.cuidadosTitulo {
+/* .cuidadosTitulo {
     text-align: center;
-}
+} */
 main h2 {
     text-align: center;
 }
