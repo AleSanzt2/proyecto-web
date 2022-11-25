@@ -72,14 +72,14 @@ body{
     font-weight: light;
     font-size: 1.2em;
 }
-.textoBio {
+/* .textoBio {
     width: 40em;
     background-color: #D9D9D9;
     height: 35em;
     padding-left: 1rem;
     padding-top: 4.6rem;
     margin: 0;
-}
+} */
 .textoLogo {
     font-family: 'Oswald', sans-serif;
     font-size: 2.5em;

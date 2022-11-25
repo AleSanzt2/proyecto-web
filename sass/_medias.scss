@@ -1,0 +1,64 @@
+
+@media (min-width: 380px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+
+@media (min-width: 1024px) {
+    main {
+        display: flex;
+        flex-flow: row nowrap;
+        background-color: #D9D9D9;
+        justify-content: flex-end;
+        height: 59rem;
+        section {
+            .encabezado {
+                color: black;
+                font-family: 'Yeseva One', cursive;
+                text-transform: none;
+                padding-top: 4rem;
+            }
+            p {
+                width: 54rem;
+                padding-left: 3rem;
+                padding-top: 2.5rem;
+            }
+        }
+    }
+    
+    body {
+        div {
+            background-image: url(../assets/img/patern.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            section {
+                .img-bio {
+                    width: 25rem;
+                    height: fit-content;
+                    margin-top: 5rem;
+                    margin-bottom: 5rem;
+                    margin-left: 5rem;
+                    border-radius: 1.2rem;
+                }
+                img {
+                    width: 25em;
+                    height: 25em;
+                    transition: all 3.5s; 
+                }
+                
+                img:hover {
+                    transform: scale(1.1, 1.1);
+                }
+            }
+        }
+    }
+    .menu-hamburguesa {
+        display: none;
+    }
+}
